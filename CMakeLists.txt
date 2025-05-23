@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 4.0.2)
+project(CMakeDemo)
+add_executable(cmakedemo main.cpp)
+target_link_directories(cmakedemo PRIVATE ${CMAKE_SOURCE_DIR}/SomeLibDemo/cpp/build/)
+target_link_libraries(cmakedemo mearlymath)
