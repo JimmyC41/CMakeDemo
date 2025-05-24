@@ -1,0 +1,3 @@
+#pragma once
+#define CMakeDemo_VERSION_MAJOR "@CMakeDemo_VERSION_MAJOR@"
+#define CMakeDemo_VERSION_MINOR "@CMakeDemo_VERSION_MINOR@"

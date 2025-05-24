@@ -2,6 +2,8 @@
     "cmake.ignoreCMakeListsMissing": true,
     "files.associations": {
         "__assert": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "*.in": "cpp",
+        "iostream": "cpp"
     }
 }
